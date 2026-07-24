@@ -19,6 +19,14 @@ Este repositório é um workbench de aprendizagem e estudos analíticos, não um
 7. Documentar premissas, decisões, limitações e próximos passos.
 8. Submeter conclusões relevantes a revisão independente.
 
+## Localização dos trabalhos
+
+- Ideias começam em `01-projects/01-incubating/`.
+- Trabalhos aprovados seguem para `01-projects/02-active/`.
+- Estudos encerrados seguem para `01-projects/03-completed/`.
+- Conhecimento permanente deve ser consolidado em `04-knowledge/`.
+- Componentes reutilizáveis devem ser extraídos para `06-packages/`.
+
 ## Regras
 
 - Python é a linguagem analítica padrão; SQL é preferido para preparação.
