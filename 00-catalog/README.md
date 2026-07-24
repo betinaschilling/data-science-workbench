@@ -1,4 +1,4 @@
-# Catálogo
+# 00 — Catálogo
 
 Índice dos projetos, estudos, trilhas e componentes do workbench.
 

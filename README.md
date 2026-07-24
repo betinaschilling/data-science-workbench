@@ -4,14 +4,15 @@ Laboratório pessoal para aprendizagem, estudos analíticos e desenvolvimento de
 
 ## Organização
 
-- `projects/`: estudos em incubação, ativos e concluídos.
-- `learning/`: trilhas de aprendizagem por domínio.
-- `engineering/`: SQL, qualidade, pipelines, Databricks, Spark e analytics engineering.
-- `knowledge/`: conceitos, métodos, métricas, artigos e tradução para negócio.
-- `templates/`: estruturas reutilizáveis para novos estudos.
-- `packages/`: componentes Python compartilhados.
-- `archive/`: versões históricas migradas de repositórios anteriores.
-- `docs/`: metodologia, decisões, padrões e roadmap.
+- `00-catalog/`: índice dos ativos do workbench.
+- `01-projects/`: estudos em incubação, ativos e concluídos.
+- `02-learning/`: trilhas de aprendizagem por domínio.
+- `03-engineering/`: SQL, qualidade, pipelines, Databricks, Spark e analytics engineering.
+- `04-knowledge/`: conceitos, métodos, métricas, artigos e tradução para negócio.
+- `05-templates/`: estruturas reutilizáveis para novos estudos.
+- `06-packages/`: componentes Python compartilhados.
+- `07-archive/`: versões históricas migradas de repositórios anteriores.
+- `08-docs/`: metodologia, decisões, padrões e roadmap.
 - `.codex/`: agentes personalizados para liderança, revisão e mentoria.
 
 ## Princípios
