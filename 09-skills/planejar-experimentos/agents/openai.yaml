@@ -1,0 +1,12 @@
+interface:
+  display_name: Planejar Experimentos
+  short_description: Desenha, dimensiona e analisa experimentos
+  default_prompt: Use $planejar-experimentos para desenhar, dimensionar, executar
+    e analisar este experimento.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

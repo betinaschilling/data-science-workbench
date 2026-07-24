@@ -1,0 +1,12 @@
+interface:
+  display_name: "Otimizar Decis\xF5es"
+  short_description: "Escolhe a\xE7\xF5es \xF3timas sob restri\xE7\xF5es"
+  default_prompt: "Use $otimizar-decisoes para formular e resolver esta decis\xE3\
+    o sob restri\xE7\xF5es e incerteza."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

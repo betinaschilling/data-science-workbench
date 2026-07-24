@@ -1,0 +1,12 @@
+interface:
+  display_name: "Preparar Dados Anal\xEDticos"
+  short_description: "Constr\xF3i bases anal\xEDticas rastre\xE1veis"
+  default_prompt: "Use $preparar-dados-analiticos para construir e validar a base\
+    \ anal\xEDtica deste projeto."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

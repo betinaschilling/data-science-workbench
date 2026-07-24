@@ -1,0 +1,12 @@
+interface:
+  display_name: "Formular Testes de Hip\xF3tese"
+  short_description: "Planeja infer\xEAncias, efeitos e decis\xF5es estat\xEDsticas"
+  default_prompt: "Use $formular-testes-de-hipotese para formular, executar e interpretar\
+    \ corretamente este teste estat\xEDstico."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

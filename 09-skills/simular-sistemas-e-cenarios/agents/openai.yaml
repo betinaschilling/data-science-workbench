@@ -1,0 +1,12 @@
+interface:
+  display_name: "Simular Sistemas e Cen\xE1rios"
+  short_description: "Explora cen\xE1rios e incerteza por simula\xE7\xE3o"
+  default_prompt: "Use $simular-sistemas-e-cenarios para modelar este sistema e comparar\
+    \ cen\xE1rios sob incerteza."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

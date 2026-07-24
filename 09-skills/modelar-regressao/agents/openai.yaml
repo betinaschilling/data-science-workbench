@@ -1,0 +1,12 @@
+interface:
+  display_name: "Modelar Regress\xE3o"
+  short_description: "Ajusta e diagnostica modelos de regress\xE3o"
+  default_prompt: "Use $modelar-regressao para escolher, ajustar, diagnosticar e interpretar\
+    \ um modelo de regress\xE3o adequado."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

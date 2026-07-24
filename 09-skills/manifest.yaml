@@ -1,0 +1,59 @@
+version: 1
+collection: cheila-data-science-skills
+language: pt-BR
+canonical_path: 09-skills
+principles:
+  analytical_language: Python
+  data_preparation_language: SQL
+  r_policy: usar somente quando não houver alternativa viável e confiável em Python
+skills:
+  - name: analisar-causalidade
+    path: analisar-causalidade/SKILL.md
+  - name: analisar-dados-multivariados
+    path: analisar-dados-multivariados/SKILL.md
+  - name: analisar-series-temporais
+    path: analisar-series-temporais/SKILL.md
+  - name: auditar-dados-estatisticos
+    path: auditar-dados-estatisticos/SKILL.md
+  - name: desenhar-sistemas-e-fluxos
+    path: desenhar-sistemas-e-fluxos/SKILL.md
+  - name: documentar-projeto-analitico
+    path: documentar-projeto-analitico/SKILL.md
+  - name: executar-analise-exploratoria
+    path: executar-analise-exploratoria/SKILL.md
+  - name: explicar-modelos-e-resultados
+    path: explicar-modelos-e-resultados/SKILL.md
+  - name: formular-problema-analitico
+    path: formular-problema-analitico/SKILL.md
+  - name: formular-testes-de-hipotese
+    path: formular-testes-de-hipotese/SKILL.md
+  - name: gerenciar-projeto-ponta-a-ponta
+    path: gerenciar-projeto-ponta-a-ponta/SKILL.md
+  - name: modelar-aprendizado-nao-supervisionado
+    path: modelar-aprendizado-nao-supervisionado/SKILL.md
+  - name: modelar-aprendizado-supervisionado
+    path: modelar-aprendizado-supervisionado/SKILL.md
+  - name: modelar-regressao
+    path: modelar-regressao/SKILL.md
+  - name: orientar-analise-estatistica
+    path: orientar-analise-estatistica/SKILL.md
+  - name: otimizar-decisoes
+    path: otimizar-decisoes/SKILL.md
+  - name: planejar-experimentos
+    path: planejar-experimentos/SKILL.md
+  - name: preparar-dados-analiticos
+    path: preparar-dados-analiticos/SKILL.md
+  - name: realizar-inferencia-bayesiana
+    path: realizar-inferencia-bayesiana/SKILL.md
+  - name: revisar-engenharia-analitica
+    path: revisar-engenharia-analitica/SKILL.md
+  - name: revisar-estudo-analitico
+    path: revisar-estudo-analitico/SKILL.md
+  - name: selecionar-e-construir-atributos
+    path: selecionar-e-construir-atributos/SKILL.md
+  - name: simular-sistemas-e-cenarios
+    path: simular-sistemas-e-cenarios/SKILL.md
+  - name: traduzir-evidencias-para-negocio
+    path: traduzir-evidencias-para-negocio/SKILL.md
+  - name: validar-modelos-estatisticos
+    path: validar-modelos-estatisticos/SKILL.md

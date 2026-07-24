@@ -1,0 +1,12 @@
+interface:
+  display_name: Analisar Causalidade
+  short_description: Identifica e estima efeitos causais com rigor
+  default_prompt: "Use $analisar-causalidade para formular o estimando, avaliar a\
+    \ identifica\xE7\xE3o e estimar este efeito causal."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+interface:
+  display_name: "Documentar Projeto Anal\xEDtico"
+  short_description: "Registra projetos de forma reprodut\xEDvel"
+  default_prompt: "Use $documentar-projeto-analitico para produzir a documenta\xE7\
+    \xE3o rastre\xE1vel deste projeto."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+interface:
+  display_name: "Traduzir Evid\xEAncias para Neg\xF3cio"
+  short_description: "Converte evid\xEAncia em decis\xE3o respons\xE1vel"
+  default_prompt: "Use $traduzir-evidencias-para-negocio para transformar estes resultados\
+    \ em implica\xE7\xF5es e recomenda\xE7\xF5es proporcionais."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -19,8 +19,11 @@ As pastas numeradas expressam ordem de navegação e responsabilidade:
 | 06 | `06-packages/` | Código Python compartilhado e testado |
 | 07 | `07-archive/` | Conteúdo histórico preservado |
 | 08 | `08-docs/` | Metodologia, decisões, padrões e roadmap |
+| 09 | `09-skills/` | Habilidades portáveis para agentes e modelos de linguagem |
 
 As pastas técnicas `.codex/` e `.github/` não recebem numeração e não devem ser renomeadas.
+
+`09-skills/` é a fonte canônica das habilidades portáveis. Carregue apenas o `SKILL.md` necessário para a tarefa e, depois, somente as referências indicadas por ele. Nunca carregue a coleção inteira no contexto sem necessidade.
 
 Não crie uma nova pasta de primeiro nível sem uma decisão registrada em `08-docs/02-decisions/`.
 
@@ -220,3 +223,15 @@ Antes de declarar uma tarefa concluída, todo agente deve informar:
 - próxima promoção possível e gates ainda faltantes.
 
 Se não houver evidência verificável, escreva `não verificado`; não presuma sucesso.
+
+
+## 13. Uso das habilidades portáveis
+
+1. Consultar `09-skills/manifest.yaml` para localizar a habilidade compatível com a solicitação.
+2. Ler integralmente o `09-skills/<nome>/SKILL.md` selecionado antes de agir.
+3. Ler arquivos em `references/` somente quando o `SKILL.md` indicar relevância.
+4. Tratar `agents/openai.yaml` como metadado opcional do ecossistema OpenAI; outros modelos podem ignorá-lo.
+5. Combinar o menor conjunto de habilidades capaz de cobrir a tarefa.
+6. Aplicar sempre as regras deste `AGENTS.md`, inclusive gates e promoções.
+7. Não alterar uma habilidade silenciosamente durante um projeto; propor a mudança separadamente e validá-la.
+8. Quando um runtime não oferecer ativação automática, inserir manualmente o conteúdo do `SKILL.md` no contexto do agente.

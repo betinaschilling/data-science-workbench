@@ -1,0 +1,12 @@
+interface:
+  display_name: Desenhar Sistemas e Fluxos
+  short_description: Modela processos e arquiteturas com clareza
+  default_prompt: Use $desenhar-sistemas-e-fluxos para compreender e representar visualmente
+    este sistema.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

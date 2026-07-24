@@ -1,0 +1,12 @@
+interface:
+  display_name: "Realizar Infer\xEAncia Bayesiana"
+  short_description: Modela e decide sob incerteza bayesiana
+  default_prompt: Use $realizar-inferencia-bayesiana para construir, diagnosticar
+    e interpretar este modelo bayesiano.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+interface:
+  display_name: "Executar An\xE1lise Explorat\xF3ria"
+  short_description: "Explora dados e transforma padr\xF5es em hip\xF3teses"
+  default_prompt: "Use $executar-analise-exploratoria para explorar estes dados, identificar\
+    \ padr\xF5es e formular hip\xF3teses test\xE1veis."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

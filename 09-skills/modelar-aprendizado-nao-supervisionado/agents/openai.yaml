@@ -1,0 +1,12 @@
+interface:
+  display_name: "Modelar Aprendizado N\xE3o Supervisionado"
+  short_description: "Descobre estruturas sem target com valida\xE7\xE3o"
+  default_prompt: "Use $modelar-aprendizado-nao-supervisionado para construir e validar\
+    \ uma solu\xE7\xE3o sem target para estes dados."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

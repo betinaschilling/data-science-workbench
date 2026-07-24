@@ -1,0 +1,12 @@
+interface:
+  display_name: "Analisar S\xE9ries Temporais"
+  short_description: "Analisa e prev\xEA s\xE9ries temporais com rigor"
+  default_prompt: "Use $analisar-series-temporais para diagnosticar, modelar, validar\
+    \ e interpretar esta s\xE9rie temporal."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
