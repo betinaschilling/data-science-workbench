@@ -1,0 +1,12 @@
+interface:
+  display_name: "Formular Problema Anal\xEDtico"
+  short_description: "Traduz decis\xF5es em perguntas analis\xE1veis"
+  default_prompt: "Use $formular-problema-analitico para transformar esta demanda\
+    \ em uma especifica\xE7\xE3o anal\xEDtica verific\xE1vel."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

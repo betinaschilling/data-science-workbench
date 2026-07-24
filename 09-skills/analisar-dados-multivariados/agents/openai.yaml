@@ -1,0 +1,12 @@
+interface:
+  display_name: Analisar Dados Multivariados
+  short_description: "Reduz dimens\xF5es e valida estruturas multivariadas"
+  default_prompt: "Use $analisar-dados-multivariados para investigar a estrutura,\
+    \ reduzir dimens\xF5es ou segmentar estes dados."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

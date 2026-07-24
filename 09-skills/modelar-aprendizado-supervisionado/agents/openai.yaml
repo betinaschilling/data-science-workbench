@@ -1,0 +1,12 @@
+interface:
+  display_name: Modelar Aprendizado Supervisionado
+  short_description: Desenvolve modelos preditivos supervisionados
+  default_prompt: Use $modelar-aprendizado-supervisionado para formular, treinar e
+    comparar modelos preditivos para este target.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

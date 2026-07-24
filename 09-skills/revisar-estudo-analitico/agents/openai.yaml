@@ -1,0 +1,12 @@
+interface:
+  display_name: "Revisar Estudo Anal\xEDtico"
+  short_description: Audita a validade integral de estudos
+  default_prompt: "Use $revisar-estudo-analitico para revisar criticamente este estudo\
+    \ e emitir um parecer rastre\xE1vel."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

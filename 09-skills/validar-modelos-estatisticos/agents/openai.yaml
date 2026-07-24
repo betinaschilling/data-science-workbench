@@ -1,0 +1,12 @@
+interface:
+  display_name: "Validar Modelos Estat\xEDsticos"
+  short_description: "Avalia generaliza\xE7\xE3o, calibra\xE7\xE3o e estabilidade"
+  default_prompt: Use $validar-modelos-estatisticos para validar este modelo, comparar
+    alternativas e avaliar sua utilidade real.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

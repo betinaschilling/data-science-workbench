@@ -1,0 +1,12 @@
+interface:
+  display_name: Selecionar e Construir Atributos
+  short_description: "Cria features v\xE1lidas e est\xE1veis"
+  default_prompt: Use $selecionar-e-construir-atributos para construir e selecionar
+    features sem vazamento.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

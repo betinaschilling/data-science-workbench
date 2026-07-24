@@ -1,0 +1,12 @@
+interface:
+  display_name: Gerenciar Projeto Ponta a Ponta
+  short_description: Planeja e governa projetos de dados
+  default_prompt: "Use $gerenciar-projeto-ponta-a-ponta para estruturar e conduzir\
+    \ este projeto do in\xEDcio ao encerramento."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

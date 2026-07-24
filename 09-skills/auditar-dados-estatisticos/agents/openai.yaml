@@ -1,0 +1,12 @@
+interface:
+  display_name: "Auditar Dados Estat\xEDsticos"
+  short_description: "Avalia qualidade t\xE9cnica e validade dos dados"
+  default_prompt: "Use $auditar-dados-estatisticos para avaliar a qualidade t\xE9\
+    cnica, estat\xEDstica e cient\xEDfica destes dados."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

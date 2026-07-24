@@ -1,0 +1,12 @@
+interface:
+  display_name: "Orientar An\xE1lise Estat\xEDstica"
+  short_description: "Coordena an\xE1lises estat\xEDsticas completas e rigorosas"
+  default_prompt: "Use $orientar-analise-estatistica para planejar, executar, validar\
+    \ e interpretar esta an\xE1lise estat\xEDstica."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

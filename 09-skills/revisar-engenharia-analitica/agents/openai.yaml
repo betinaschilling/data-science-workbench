@@ -1,0 +1,12 @@
+interface:
+  display_name: "Revisar Engenharia Anal\xEDtica"
+  short_description: "Revisa padr\xF5es e bloqueia solu\xE7\xF5es fr\xE1geis"
+  default_prompt: "Use $revisar-engenharia-analitica para revisar esta implementa\xE7\
+    \xE3o antes de qualquer corre\xE7\xE3o."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

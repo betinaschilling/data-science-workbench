@@ -1,0 +1,12 @@
+interface:
+  display_name: Explicar Modelos e Resultados
+  short_description: "Interpreta modelos sem extrapolar evid\xEAncias"
+  default_prompt: "Use $explicar-modelos-e-resultados para interpretar este modelo\
+    \ e separar previs\xE3o, associa\xE7\xE3o e causalidade."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

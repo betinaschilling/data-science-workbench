@@ -13,6 +13,7 @@ Laboratório pessoal para aprendizagem, estudos analíticos e desenvolvimento de
 - `06-packages/`: componentes Python compartilhados.
 - `07-archive/`: versões históricas migradas de repositórios anteriores.
 - `08-docs/`: metodologia, decisões, padrões e roadmap.
+- `09-skills/`: habilidades portáveis para uso com diferentes modelos de linguagem.
 - `.codex/`: agentes personalizados para liderança, revisão e mentoria.
 
 ## Princípios
