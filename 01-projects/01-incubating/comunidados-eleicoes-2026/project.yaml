@@ -10,7 +10,7 @@ population: votos totalizados para Presidente da República no Brasil
 unit_of_analysis: candidato por snapshot de apuração
 time_scope: primeiro turno de 2026; snapshots planejados a cada 20 minutos durante a apuração
 data_sources:
-  - Tribunal Superior Eleitoral (TSE), divulgação oficial de resultados; endpoint a validar em execução
+  - TSE EA20, ambiente oficial, eleição federal 6257, cargo 0001, abrangência Brasil
 method_family: análise descritiva temporal
 success_criteria:
   - coletar e preservar payload oficial sem alterar o dado bruto
@@ -18,9 +18,10 @@ success_criteria:
   - gerar histórico normalizado por candidato e instante de coleta
   - gerar dashboard HTML estático reproduzível
 risks:
-  - contrato e disponibilidade do endpoint podem mudar
-  - cron do GitHub Actions pode sofrer atraso
-  - percentual de apuração precisa ser interpretado conforme contrato oficial
+  - contrato ou disponibilidade do endpoint pode mudar
+  - cron do GitHub Actions é best-effort e pode sofrer atraso
+  - payload de produção ainda precisa de evidência de execução
 human_approvals:
   - escopo V0 Presidente/Brasil e snapshots de 20 minutos aprovado pela usuária em 2026-10-04
+  - continuidade da implementação e automação aprovada pela usuária em 2026-10-04
 review_status: pending
