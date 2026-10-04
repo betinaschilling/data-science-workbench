@@ -1,0 +1,26 @@
+name: comunidados-eleicoes-2026
+title: ComuniDados — Apuração Eleições 2026
+status: incubating
+owner: Cheila
+created_at: 2026-10-04
+updated_at: 2026-10-04
+decision: avaliar a evolução temporal da apuração presidencial a partir de snapshots oficiais
+question: como o resultado presidencial evolui à medida que a apuração nacional avança?
+population: votos totalizados para Presidente da República no Brasil
+unit_of_analysis: candidato por snapshot de apuração
+time_scope: primeiro turno de 2026; snapshots planejados a cada 20 minutos durante a apuração
+data_sources:
+  - Tribunal Superior Eleitoral (TSE), divulgação oficial de resultados; endpoint a validar em execução
+method_family: análise descritiva temporal
+success_criteria:
+  - coletar e preservar payload oficial sem alterar o dado bruto
+  - impedir duplicação de snapshots idênticos
+  - gerar histórico normalizado por candidato e instante de coleta
+  - gerar dashboard HTML estático reproduzível
+risks:
+  - contrato e disponibilidade do endpoint podem mudar
+  - cron do GitHub Actions pode sofrer atraso
+  - percentual de apuração precisa ser interpretado conforme contrato oficial
+human_approvals:
+  - escopo V0 Presidente/Brasil e snapshots de 20 minutos aprovado pela usuária em 2026-10-04
+review_status: pending
