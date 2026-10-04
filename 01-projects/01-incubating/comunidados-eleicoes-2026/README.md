@@ -1,39 +1,45 @@
 # ComuniDados — Apuração Eleições 2026
 
-Projeto em incubação para construir um painel independente da evolução da apuração presidencial de 2026.
+Projeto em incubação para acompanhar a evolução da apuração presidencial de 2026.
 
 ## V0
 
-Escopo aprovado: Presidente, Brasil, snapshots planejados a cada 20 minutos e dashboard HTML estático com marca ComuniDados.
+Presidente da República, abrangência Brasil, snapshots a cada 20 minutos e saída HTML estática com marca ComuniDados.
 
-Fluxo proposto:
+Fonte oficial documentada pelo TSE:
+- ambiente: `oficial`;
+- eleição federal do 1º turno: `6257`;
+- cargo Presidente: `0001`;
+- arquivo: EA20 de abrangência Brasil;
+- URL construída: `https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json`.
+
+O TSE informa limite de 100 requisições por segundo por IP. Esta V0 faz no máximo uma consulta por execução agendada.
+
+## Fluxo
 
 ```text
-TSE -> coleta única -> preservação raw -> normalização -> histórico -> build HTML
+GitHub Actions (20 min)
+        |
+        v
+EA20/TSE -> validação mínima -> raw JSON imutável
+        |                         |
+        +---- hash/deduplicação --+
+        |
+        v
+dashboard HTML (etapa seguinte após schema observado)
 ```
 
-A automação periódica e a publicação ainda não são tratadas como validadas. O endpoint oficial deve ser confirmado por execução antes de habilitar agendamento.
-
-## Estrutura
-
-- `project.yaml`: manifesto e gates.
-- `src/`: coleta, normalização, persistência e geração HTML.
-- `tests/`: testes unitários sem dependência da API.
-- `data/`: criada em runtime; dados brutos não devem ser alterados.
-- `reports/`: saída HTML gerada em runtime.
-
-## Execução planejada
+## Execução
 
 ```bash
 python -m pip install -r requirements.txt
 python src/collector.py --once
-python src/build_dashboard.py
 python -m pytest -q
 ```
 
 ## Estado
 
-Incubating. Acesso real ao endpoint, esquema observado, execução do coletor e publicação: não verificados.
+`incubating`. Os parâmetros e o padrão de URL estão confirmados na documentação oficial. O payload de produção e a execução do workflow permanecem `não verificados` até a primeira execução bem-sucedida registrada no GitHub.
 
 ## Fonte e responsabilidade
 
